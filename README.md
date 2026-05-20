@@ -13,8 +13,10 @@ An Applied Machine Learning project trained on **40,000 Amazon reviews**, design
 https://fake-review-detectors.streamlit.app/
 
 🔗 𝗚𝗶𝘁𝗛𝘂𝗯 𝗥𝗲𝗽𝗼
-[fake-review-detector](https://github.com/swastiksinha1/fake-review-detector)
+[fake-review-detector](https://github.com/swastiksinha1/fake-review-detector?utm_source=chatgpt.com)
 
+📄 𝗟𝗶𝗰𝗲𝗻𝘀𝗲
+MIT License
 ╚════════════════════════════════════════════╝
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -34,7 +36,7 @@ Instead of only analyzing **what is written**, my system analyzes **how it is wr
 ⚙️ 𝗛𝘆𝗯𝗿𝗶𝗱 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝗼𝗻 𝗘𝗻𝗴𝗶𝗻𝗲
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-
+```text
 ┌──────────────────────────────┬──────────────────────────────────────────────┐
 │ Analysis Layer               │ Purpose                                      │
 ├──────────────────────────────┼──────────────────────────────────────────────┤
@@ -42,7 +44,7 @@ Instead of only analyzing **what is written**, my system analyzes **how it is wr
 │ Behavioral Feature Engine    │ Extracts 29 stylistic writing features       │
 │ Heuristic Intelligence Layer │ Flags repetitive & AI-like persuasive text   │
 └──────────────────────────────┴──────────────────────────────────────────────┘
-
+```
 
 The final prediction combines:
 
@@ -77,7 +79,10 @@ Example:
 ⭐ 1-star rating with highly positive review text.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📊 𝗠𝗼𝗱𝗲𝗹 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲 :
+📊 𝗠𝗼𝗱𝗲𝗹 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+```text
 ┌──────────────────────┬──────────┐
 │ Metric               │ Score    │
 ├──────────────────────┼──────────┤
@@ -86,26 +91,27 @@ Example:
 │ F1-Score             │ 91.8%    │
 │ AUC-ROC              │ 95.0%    │
 └──────────────────────┴──────────┘
+```
 
-
- Full model comparisons and validation statistics are available directly inside the application dashboard.
+📌 Full model comparisons and validation statistics are available directly inside the application dashboard.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 💻 𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-: Machine Learning
+### Machine Learning
 
 • scikit-learn
 • pandas
 • numpy
 • scipy
 
- : Backend & Deployment
+### Backend & Deployment
 
 • Python
 • Streamlit Community Cloud
 
- Frontend / UI Engineering
+### Frontend / UI Engineering
 
 • Custom CSS Glassmorphism Interface
 • Animated Fluid Backgrounds
@@ -126,9 +132,6 @@ Moving forward, I plan to explore:
 This project became a fantastic deep dive into:
 
 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 • 𝗡𝗟𝗣 • 𝗙𝗲𝗮𝘁𝘂𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 • 𝗔𝗜 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁 • 𝗙𝘂𝗹𝗹-𝗦𝘁𝗮𝗰𝗸 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
-
-📄 𝗟𝗶𝗰𝗲𝗻𝘀𝗲
-MIT License
 
 Would love to hear your feedback, suggestions, or edge-case reviews to test against the model 👇
 
