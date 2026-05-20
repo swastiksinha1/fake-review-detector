@@ -1,133 +1,148 @@
-🚀 𝗨𝗻𝗺𝗮𝘀𝗸𝗶𝗻𝗴 𝗘-𝗖𝗼𝗺𝗺𝗲𝗿𝗰𝗲 𝗦𝗽𝗮𝗺
+<div align="center">
 
-### 𝗕𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝗮 𝗛𝘆𝗯𝗿𝗶𝗱 𝗙𝗮𝗸𝗲 𝗥𝗲𝘃𝗶𝗲𝘄 𝗗𝗲𝘁𝗲𝗰𝘁𝗼𝗿
+# 🕵️‍♂️ Fake Review Detector  
+### Unmasking E-Commerce Spam
 
-In today’s AI-driven internet, generating highly convincing fake reviews has become easier than ever.
-Large Language Models can now create realistic product feedback in seconds — making traditional spam detection systems increasingly ineffective.
+### A Hybrid ML Approach Against AI-Generated Reviews
 
-To explore this challenge, I built **Fake Review Detector** 🕵️‍♂️
-An Applied Machine Learning project trained on **40,000 Amazon reviews**, designed to detect deceptive reviews by analyzing not just *what* is written, but *how* it is written.
+An Applied Machine Learning project trained on 40,000 Amazon reviews, designed to detect deceptive reviews by analyzing not just what is written, but how it is written.
+
+</div>
+
+---
+
+## 📌 Overview
+
+In today’s AI-driven internet, generating highly convincing fake reviews has become easier than ever. Large Language Models can now create realistic product feedback in seconds, making traditional spam detection systems increasingly ineffective. 
+
+The **Fake Review Detector** is a hybrid ML application that looks beyond basic word frequencies. It combines traditional NLP with a custom behavioral feature engine to spot the "stylistic fingerprints" left behind by generative AI and paid human reviewers, drastically reducing false positives on genuinely enthusiastic feedback.
+
+---
+
+## 🚀 Features
+
+| Feature | Description |
+| :--- | :--- |
+| 🧠 **Hybrid Prediction Engine** | Combines TF-IDF, Behavioral Extraction, and Rule-Based Heuristics |
+| 📐 **29 Stylistic Features** | Analyzes caps ratios, punctuation abuse, and sentiment inconsistency |
+| 🔍 **AI Fingerprint Detection** | Flags excessive positivity, persuasive language, and lack of product specifics |
+| ⚡ **Real-Time Analysis** | Instant fake vs. real probability scoring via web interface |
+| 📱 **Premium UI/UX** | Custom 3D Glassmorphism interface with animated fluid backgrounds |
+| 📦 **Batch Processing** | Analyze multiple reviews simultaneously |
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Machine Learning** | scikit-learn, pandas, numpy, scipy |
+| **Backend & Deployment** | Python, Streamlit Community Cloud |
+| **Frontend / UI** | Streamlit, Custom CSS |
+| **Data Processing** | Regex, Custom Feature Engineering |
+
+---
+
+## 🎯 Problem Statement
+
+Traditional spam detectors face major difficulties while:
+
+- Catching modern AI-generated reviews that use natural, realistic vocabulary.
+- Avoiding false positives on real, highly enthusiastic 5-star reviews.
+- Identifying long-winded, verbose praise that lacks concrete product specifications.
+- Spotting sentiment contradictions (e.g., 1-star ratings with glowing text).
+
+The Fake Review Detector solves these issues by shifting the focus from *content analysis* to *behavioral and stylistic analysis*.
+
+---
+
+## 📊 Model Performance
+
+| Metric | Score |
+| :--- | :--- |
+| **Best Model** | Logistic Regression (C=2) |
+| **Accuracy** | 91.6% |
+| **F1-Score** | 91.6% |
+| **AUC-ROC** | 97.6% |
+| **Cross-Validation F1** | 0.9104 ± 0.0071 |
+
+---
+
+## 📂 Project Structure
+
+```bash
+fake-review-detector
+│
+├── 📁 data/               # Dataset (40,000 Amazon reviews)
+├── 📁 model/              # Trained .pkl files (model, tfidf, scaler, meta)
+│
+├── 📄 app.py              # Main Streamlit web application
+├── 📄 train.py            # ML model training pipeline
+├── 📄 utils.py            # Feature engineering & heuristics logic
+├── 📄 analyze_data.py     # Exploratory Data Analysis scripts
+├── 📄 test_model.py       # Validation and testing scripts
+│
+├── 📄 requirements.txt    # Project dependencies
+└── 📄 README.md           # Project documentation
+
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+
+Bash
+git clone [https://github.com/swastiksinha1/fake-review-detector.git](https://github.com/swastiksinha1/fake-review-detector.git)
+
+2️⃣ Navigate to the Project Folder
+Bash
+cd fake-review-detector
+
+3️⃣ Install Dependencies
+Bash
+pip install -r requirements.txt
+
+4️⃣ Run the Web App
+Bash
+streamlit run app.py
+
+(Note: If you haven't trained the model yet, run python train.py first to generate the necessary .pkl files in the model/ directory).
 
 
-🔗 𝗟𝗶𝘃𝗲 𝗗𝗲𝗺𝗼
-https://fake-review-detectors.streamlit.app/
+👨‍💻 Developer
+Swastik Sinha
+Full Stack Developer • VIT Bhopal
 
-🔗 𝗚𝗶𝘁𝗛𝘂𝗯 𝗥𝗲𝗽𝗼
-[fake-review-detector](https://github.com/swastiksinha1/fake-review-detector?utm_source=chatgpt.com)
+📈 Learning Outcomes
+This project helped in gaining practical experience in:
 
-📄 𝗟𝗶𝗰𝗲𝗻𝘀𝗲
-MIT License
+Applied Machine Learning & NLP
+Advanced Feature Engineering
+Full-Stack UI/UX Design with Streamlit & CSS
+Model Evaluation (AUC-ROC, Cross-Validation)
+Cloud Deployment & Dependency Management
+Problem Solving using Technology
 
+⭐ Support
+If you liked this project:
 
+⭐ Star the repository
+🍴 Fork the project
+🛠️ Contribute to improvements
+🧪 Test edge-cases on the live demo!
 
+📄 License
+This project is licensed under the MIT License.
 
-🧠 𝗪𝗵𝘆 𝗧𝗿𝗮𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗡𝗟𝗣 𝗜𝘀𝗻’𝘁 𝗘𝗻𝗼𝘂𝗴𝗵
+🏷️ GitHub Topics
 
-
-Most fake-review systems rely heavily on:
-• TF-IDF
-• Bag-of-Words
-• Basic text classification
-
-However, modern AI-generated reviews often use highly natural vocabulary and realistic sentence structures.
-
-Instead of only analyzing **what is written**, my system analyzes **how it is written**.
-
-
-⚙️ 𝗛𝘆𝗯𝗿𝗶𝗱 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝗼𝗻 𝗘𝗻𝗴𝗶𝗻𝗲
-
-┌──────────────────────────────┬──────────────────────────────────────────────┐
-│ Analysis Layer               │ Purpose                                      │
-├──────────────────────────────┼──────────────────────────────────────────────┤
-│ TF-IDF Vectorization         │ Detects spam vocabulary & word patterns      │
-│ Behavioral Feature Engine    │ Extracts 29 stylistic writing features       │
-│ Heuristic Intelligence Layer │ Flags repetitive & AI-like persuasive text   │
-└──────────────────────────────┴──────────────────────────────────────────────┘
-
-
-The final prediction combines:
-
-✔ Machine Learning probabilities
-✔ Behavioral analysis
-✔ Rule-based confidence scoring
-
-This hybrid architecture significantly reduces false positives on genuinely enthusiastic reviews.
+machine-learning
+nlp
+python
+streamlit
+data-science
+artificial-intelligence
+cybersecurity
+feature-engineering
+vit-bhopal
+open-source
 
 
-🔍 𝗗𝗲𝘁𝗲𝗰𝘁𝗶𝗻𝗴 𝘁𝗵𝗲 “𝗔𝗜 𝗙𝗶𝗻𝗴𝗲𝗿𝗽𝗿𝗶𝗻𝘁”
 
-One of the most interesting parts of the project was identifying patterns commonly found in AI-generated reviews.
-
-### Custom Feature Engineering Included:
-
-➤ **Excessive Positivity Ratios**
-Detects unnatural densities of hype words.
-
-➤ **Lack of Product Specificity**
-Flags verbose reviews lacking concrete product specifications.
-
-➤ **Persuasive Language Overload**
-Detects phrases like:
-• “Don’t think twice”
-• “Look no further”
-• “Best product ever”
-
-➤ **Sentiment Contradiction Detection**
-Example:
-⭐ 1-star rating with highly positive review text.
-
-
-📊 𝗠𝗼𝗱𝗲𝗹 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲
-
-┌──────────────────────┬──────────┐
-│ Metric               │ Score    │
-├──────────────────────┼──────────┤
-│ Best Model           │ XGBoost  │
-│ Accuracy             │ 92.5%    │
-│ F1-Score             │ 91.8%    │
-│ AUC-ROC              │ 95.0%    │
-└──────────────────────┴──────────┘
-
-
- Full model comparisons and validation statistics are available directly inside the application dashboard.
-
-💻 𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸
-
-
-### Machine Learning
-
-• scikit-learn
-• pandas
-• numpy
-• scipy
-
-### Backend & Deployment
-
-• Python
-• Streamlit Community Cloud
-
-### Frontend / UI Engineering
-
-• Custom CSS Glassmorphism Interface
-• Animated Fluid Backgrounds
-• Floating Metric Cards
-• Interactive Responsive Design
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-💡 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘅𝘁?
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Moving forward, I plan to explore:
-
-→ Transformer-based embeddings
-→ LLM-assisted detection systems
-→ Semantic consistency analysis
-→ Advanced adversarial spam detection
-
-This project became a fantastic deep dive into:
-
-𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 • 𝗡𝗟𝗣 • 𝗙𝗲𝗮𝘁𝘂𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 • 𝗔𝗜 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁 • 𝗙𝘂𝗹𝗹-𝗦𝘁𝗮𝗰𝗸 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
-
-Would love to hear your feedback, suggestions, or edge-case reviews to test against the model 👇
-
-#MachineLearning #Python #DataScience #NLP #ArtificialIntelligence #AI #Streamlit #CyberSecurity #OpenSource #WebDevelopment #TechInnovation #VITBhopal
