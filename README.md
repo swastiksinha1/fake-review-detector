@@ -8,7 +8,7 @@ Large Language Models can now create realistic product feedback in seconds — m
 To explore this challenge, I built **Fake Review Detector** 🕵️‍♂️
 An Applied Machine Learning project trained on **40,000 Amazon reviews**, designed to detect deceptive reviews by analyzing not just *what* is written, but *how* it is written.
 
-╔════════════════════════════════════════════╗
+
 🔗 𝗟𝗶𝘃𝗲 𝗗𝗲𝗺𝗼
 https://fake-review-detectors.streamlit.app/
 
@@ -17,11 +17,12 @@ https://fake-review-detectors.streamlit.app/
 
 📄 𝗟𝗶𝗰𝗲𝗻𝘀𝗲
 MIT License
-╚════════════════════════════════════════════╝
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
 🧠 𝗪𝗵𝘆 𝗧𝗿𝗮𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗡𝗟𝗣 𝗜𝘀𝗻’𝘁 𝗘𝗻𝗼𝘂𝗴𝗵
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 Most fake-review systems rely heavily on:
 • TF-IDF
@@ -32,11 +33,9 @@ However, modern AI-generated reviews often use highly natural vocabulary and rea
 
 Instead of only analyzing **what is written**, my system analyzes **how it is written**.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚙️ 𝗛𝘆𝗯𝗿𝗶𝗱 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝗼𝗻 𝗘𝗻𝗴𝗶𝗻𝗲
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-```text
+⚙️ 𝗛𝘆𝗯𝗿𝗶𝗱 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝗼𝗻 𝗘𝗻𝗴𝗶𝗻𝗲
+
 ┌──────────────────────────────┬──────────────────────────────────────────────┐
 │ Analysis Layer               │ Purpose                                      │
 ├──────────────────────────────┼──────────────────────────────────────────────┤
@@ -44,7 +43,7 @@ Instead of only analyzing **what is written**, my system analyzes **how it is wr
 │ Behavioral Feature Engine    │ Extracts 29 stylistic writing features       │
 │ Heuristic Intelligence Layer │ Flags repetitive & AI-like persuasive text   │
 └──────────────────────────────┴──────────────────────────────────────────────┘
-```
+
 
 The final prediction combines:
 
@@ -54,9 +53,8 @@ The final prediction combines:
 
 This hybrid architecture significantly reduces false positives on genuinely enthusiastic reviews.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 🔍 𝗗𝗲𝘁𝗲𝗰𝘁𝗶𝗻𝗴 𝘁𝗵𝗲 “𝗔𝗜 𝗙𝗶𝗻𝗴𝗲𝗿𝗽𝗿𝗶𝗻𝘁”
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 One of the most interesting parts of the project was identifying patterns commonly found in AI-generated reviews.
 
@@ -78,11 +76,9 @@ Detects phrases like:
 Example:
 ⭐ 1-star rating with highly positive review text.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📊 𝗠𝗼𝗱𝗲𝗹 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-```text
+📊 𝗠𝗼𝗱𝗲𝗹 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲
+
 ┌──────────────────────┬──────────┐
 │ Metric               │ Score    │
 ├──────────────────────┼──────────┤
@@ -91,13 +87,12 @@ Example:
 │ F1-Score             │ 91.8%    │
 │ AUC-ROC              │ 95.0%    │
 └──────────────────────┴──────────┘
-```
 
-📌 Full model comparisons and validation statistics are available directly inside the application dashboard.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Full model comparisons and validation statistics are available directly inside the application dashboard.
+
 💻 𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 ### Machine Learning
 
