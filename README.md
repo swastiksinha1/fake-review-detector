@@ -84,24 +84,32 @@ fake-review-detector
 │
 ├── 📄 requirements.txt    # Project dependencies
 └── 📄 README.md           # Project documentation
+```
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 
-Bash
+```Bash
 git clone [https://github.com/swastiksinha1/fake-review-detector.git](https://github.com/swastiksinha1/fake-review-detector.git)
+```
 
 2️⃣ Navigate to the Project Folder
+```
 Bash
 cd fake-review-detector
+```
 
 3️⃣ Install Dependencies
+```
 Bash
 pip install -r requirements.txt
+```
 
 4️⃣ Run the Web App
+```
 Bash
 streamlit run app.py
+```
 
 (Note: If you haven't trained the model yet, run python train.py first to generate the necessary .pkl files in the model/ directory).
 
