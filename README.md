@@ -87,8 +87,8 @@ fake-review-detector
 ```
 
 ⚙️ Installation & Setup
-1️⃣ Clone the Repository
 
+1️⃣ Clone the Repository
 ```Bash
 git clone [https://github.com/swastiksinha1/fake-review-detector.git](https://github.com/swastiksinha1/fake-review-detector.git)
 ```
