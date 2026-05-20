@@ -3,11 +3,4 @@ streamlit
     pandas
     scipy
     scikit-learn
-    ```
-    Commit the new file to your `main` branch.
-  
-  
-    Streamlit needs the trained `.pkl` files to make predictions. Ensure you have run `train.py` locally and pushed the `model/` folder (containing `model.pkl`, `tfidf.pkl`, `scaler.pkl`, and `meta.pkl`) to your GitHub repository.
-  
-  
-    Log into [share.streamlit.io](https://share.streamlit.io/) with your GitHub account. Click **New app**, select your repository, set the main file path to `app.py`, and click **Deploy!**
+   
