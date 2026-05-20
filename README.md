@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🕵️‍♂️ Fake Review Detector  
+#  Fake Review Detector  
 ### Unmasking E-Commerce Spam
 
 ### A Hybrid ML Approach Against AI-Generated Reviews
