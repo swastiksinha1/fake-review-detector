@@ -111,6 +111,7 @@ Bash
 streamlit run app.py
 ```
 
+
 (Note: If you haven't trained the model yet, run python train.py first to generate the necessary .pkl files in the model/ directory).
 
 
@@ -118,8 +119,10 @@ streamlit run app.py
 Swastik Sinha
 Full Stack Developer • VIT Bhopal
 
+
 📈 Learning Outcomes
 This project helped in gaining practical experience in:
+
 
 Applied Machine Learning & NLP
 Advanced Feature Engineering
@@ -128,16 +131,20 @@ Model Evaluation (AUC-ROC, Cross-Validation)
 Cloud Deployment & Dependency Management
 Problem Solving using Technology
 
+
 ⭐ Support
 If you liked this project:
+
 
 ⭐ Star the repository
 🍴 Fork the project
 🛠️ Contribute to improvements
 🧪 Test edge-cases on the live demo!
 
+
 📄 License
 This project is licensed under the MIT License.
+
 
 🏷️ GitHub Topics
 
